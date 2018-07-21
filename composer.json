@@ -1,0 +1,17 @@
+{
+    "name": "jpry/intellij-throw-test",
+    "description": "To reproduce https://youtrack.jetbrains.com/issue/WI-42769",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeremy Pry",
+            "email": "jeremy.pry@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "JPry\\IntelliJThrowTest\\": "src/"
+        }
+    }
+}
