@@ -2,7 +2,7 @@
 
 namespace JPry\IntelliJThrowTest\Exception;
 
-class InvalidField extends \InvalidArgumentException implements Exception {
+class InvalidField extends \Exception implements Exception {
 
 	/**
 	 * Create a new instance of the exception for a field class name that is not recognized.
